@@ -7,6 +7,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <style>
+      {
+        "body { background-image: linear-gradient(0.25turn, #f4cca2, #ebf8e1, #ffe7ce);}"
+      }
+    </style>
     <App />
   </React.StrictMode>
 );
